@@ -1,0 +1,18 @@
+{
+  "name": "webrtc-vlm-detection",
+  "version": "1.0.0",
+  "description": "Real-time WebRTC Multi-Object Detection Demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "ngrok": "^4.3.3",
+    "socket.io": "^4.8.1"
+  },
+  "license": "ISC",
+  "keywords": [],
+  "author": ""
+}

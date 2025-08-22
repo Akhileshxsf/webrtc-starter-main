@@ -1,0 +1,12 @@
+version: '3'
+services:
+  signaling:
+    build: .
+    ports:
+      - "8181:8181"
+  inference:
+    build: ./server
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models
